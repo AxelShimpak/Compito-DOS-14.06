@@ -3,8 +3,6 @@ import random as rdm #per i dati da mettere nei pacchetti
 
 IP_target = input("Inserisci l'indirizzo IP da Dossare\n>>>")
 porta_target = int(input("Inserisci la porta del sistema target\n>>>"))
-if porta_target == "":
-    porta_target = 80
 
 s_UDP = so.socket(so.AF_INET, so.SOCK_DGRAM)
 # impostiamo SOCK_DGRAM per il protocollo UDP
